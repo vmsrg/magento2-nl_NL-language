@@ -1101,7 +1101,7 @@ Stretch,Stretch,module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 breidt zich niet uit in \Magento\Catalogus\Model\Laag\Filter\AbstractFilter","module","Magento_Catalog"
 "The filter must be an object. Please set the correct filter.","Het filter moet een object zijn. Stel de juiste filter in.","module","Magento_Catalog"
 "Clear Price","Verwijder prijs","module","Magento_Catalog"
-"%1 and above","%1 en bovenstaand","module","Magento_Catalog"
+"%1 and above","%1 en hoger","module","Magento_Catalog"
 "The image does not exist.","De afbeelding bestaat niet.","module","Magento_Catalog"
 "Please correct the image file type.","Corrigeer het type beeldbestand.","module","Magento_Catalog"
 "Group price must be a number greater than 0.","Groepsprijs moet een nummer groter dan 0 zijn.","module","Magento_Catalog"
