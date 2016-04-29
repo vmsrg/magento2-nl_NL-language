@@ -15,3 +15,5 @@ Nederlandse Magento 2 vertalingen voor de Community Editie, vertaald en geoptima
 
 ### Meer informatie
 Bekijk onze website voor meer informatie: http://www.adwise.nl/
+
+Momenteel ontbreken er nog enkele vertalingen. Dit komt mede door een bug in de i18n:collect-phrases functie. Meer informatie over deze bug is op de volgende pagina te vinden: https://github.com/magento/magento2/issues/2630
