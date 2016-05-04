@@ -8,6 +8,8 @@ Nederlandse Magento 2 vertalingen voor de Community Editie, vertaald en geoptima
 ### Installatie (handmatig)
 * Kopieer alle bestanden naar de directory ``app/i18n/adwise/nl_nl/``
 * Deploy static content `$ bin/magento setup:static-content:deploy`
+* Taal activeren Backend: Account Settings > Account information > Interface Locale
+* Taal activeren Frontend: Stores > Instellingen > Configuratie > [Selecteer gewenste winzelzicht] > Opties Locale > Locale
 
 ### Roadmap
 * Aanvullen van ontbrekende vertaling
