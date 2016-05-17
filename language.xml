@@ -3,4 +3,5 @@
     <code>nl_NL</code>
     <vendor>adwise</vendor>
     <package>nl_nl</package>
+    <use vendor="magento" package="nl_nl"/>
 </language>
