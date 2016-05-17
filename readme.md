@@ -1,17 +1,34 @@
 # Adwise Magento 2 Dutch Language Pack (nl_NL)
 
-Nederlandse Magento 2 vertalingen voor de Community Editie, vertaald en geoptimaliseerd door Adwise - Your Digital Brain.
+Dutch Magento 2 translations for Magento 2 (CE), translated, optimized and maintained by Adwise - Your Digital Brain.
 
-### Versie
-1.0.3
+### Version
+1.0.4
 
-### Installatie (handmatig)
-* Kopieer alle bestanden naar de directory ``app/i18n/adwise/nl_nl/``
-* Deploy static content `$ bin/magento setup:static-content:deploy`
+### Configure Magento backend
+* Activate language (backend): Account > Settings > Account information > Interface Locale
+* Activate language (frontend): Stores > Settings > Configuration > [storeview] > Locale options > Locale
+
+### Installation (manual)
+* Clone repository to ``app/i18n/adwise/nl_nl/`` 
+* Upgrade Magento installation ``$ php bin/magento setup:upgrade``
+* Clear Magento cache``$ php bin/magento cache:clean``
+* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_nl``
+
+### Installation (Composer)
+* Require via Composer CLI ``$ composer require adwise/language-nl_nl``
+* Upgrade Magento installation ``$ php bin/magento setup:upgrade``
+* Clear Magento cache``$ php bin/magento cache:clean``
+* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_nl``
 
 ### Roadmap
-* Aanvullen van ontbrekende vertaling
-* Installatie via Composer
+* Translate missing content
+* Optimize translations (in context for better experience)
 
-### Meer informatie
-Bekijk onze website voor meer informatie: http://www.adwise.nl/
+### Bugs
+There are still missing some translations, due to a bug in the i18n:collect-prhases method. More information about this bug can be found on: https://github.com/magento/magento2/issues/2630
+
+Please report all bugs/optimizations in Github!
+
+### More information
+Visit out website for more information: http://www.adwise.nl/
