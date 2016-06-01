@@ -3,7 +3,7 @@
 Dutch Magento 2 translations for Magento 2 (CE), translated, optimized and maintained by Adwise - Your Digital Brain.
 
 ### Version
-1.0.5
+1.1.1
 
 ### Configure Magento backend
 * Activate language (backend): Account > Settings > Account information > Interface Locale
@@ -13,20 +13,20 @@ Dutch Magento 2 translations for Magento 2 (CE), translated, optimized and maint
 * Clone repository to ``app/i18n/adwise/nl_nl/`` 
 * Upgrade Magento installation ``$ php bin/magento setup:upgrade``
 * Clear Magento cache``$ php bin/magento cache:clean``
-* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_nl``
+* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_NL``
 
 ### Installation (Composer)
-* Require via Composer CLI ``$ composer require adwise/language-nl_nl``
+* Require via Composer CLI ``$ composer require adwise/language-nl_NL``
 * Upgrade Magento installation ``$ php bin/magento setup:upgrade``
 * Clear Magento cache``$ php bin/magento cache:clean``
-* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_nl``
+* Deploy Static Content ``$ php bin/magento setup:static-content:deploy nl_NL``
 
 ### Roadmap
-* Translate missing content
+* Translate missing content (50% left)
 * Optimize translations (in context for better experience)
 
 ### Bugs
-There are still missing some translations, due to a bug in the i18n:collect-prhases method. More information about this bug can be found on: https://github.com/magento/magento2/issues/2630
+There are still missing some translations, due to a bug in the i18n:collect-prhases method. More information about this bug can be found on: https://github.com/magento/magento2/issues/2630. This issue will be fixed in Magento CE 2.1.0 but is already fixed in develop branch.
 
 Please report all bugs/optimizations in Github!
 
