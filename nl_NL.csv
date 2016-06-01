@@ -8342,3 +8342,5 @@ Account,Account,module,Magento_Theme
 "Web API Security","Web API beveiliging","module","Magento_WebapiSecurity"
 "Allow Anonymous Guest Access","Anoniem gastgebruik toestaan","module","Magento_WebapiSecurity"
 "Wish List Section","Wensenlijst gedeelte","module","Magento_Wishlist"
+"Adding...","Bezig met toevoegen...",module,Magento_Catalog
+"Added","Toegevoegd",module,Magento_Catalog
